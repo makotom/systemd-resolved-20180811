@@ -1,0 +1,202 @@
+Aug 10 16:22:28 archiso systemd-resolved[811]: Got DNS stub UDP query packet for id 16859
+Aug 10 16:22:28 archiso systemd-resolved[811]: Looking up RR for slave.www.nosec.makotom.net IN A.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for slave.www.nosec.makotom.net IN A
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 35587 for <slave.www.nosec.makotom.net IN A> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 35587.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.1.1.1 for transaction 35587.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 35587.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing query...
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 35587 (rcode=SUCCESS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting parent SOA to validate transaction 35587 (slave.www.nosec.makotom.net, unsigned CNAME/DNAME/DS RRset).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for www.nosec.makotom.net IN SOA
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 31046 for <www.nosec.makotom.net IN SOA> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 31046.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.1.1.1 for transaction 31046.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 31046.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 31046 (rcode=SUCCESS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting parent SOA to validate transaction 31046 (www.nosec.makotom.net, unsigned CNAME/DNAME/DS RRset).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for nosec.makotom.net IN SOA
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 55772 for <nosec.makotom.net IN SOA> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 55772.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.1.1.1 for transaction 55772.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 55772.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DS to validate transaction 31046 (master.www.nosec.makotom.net, unsigned SOA/NS RRset).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for master.www.nosec.makotom.net IN DS
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 48546 for <master.www.nosec.makotom.net IN DS> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.1.1.1 for transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 55772 (rcode=SUCCESS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DS to validate transaction 55772 (nosec.makotom.net, unsigned SOA/NS RRset).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for nosec.makotom.net IN DS
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 45542 for <nosec.makotom.net IN DS> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 45542.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.1.1.1 for transaction 45542.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 45542.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 45542 (rcode=SUCCESS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DNSKEY to validate transaction 45542 (makotom.net, RRSIG with key tag: 35273).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for makotom.net IN DNSKEY
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 39830 for <makotom.net IN DNSKEY> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 39830.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.1.1.1 for transaction 39830.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 39830.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DNSKEY to validate transaction 45542 (nosec.makotom.net, RRSIG with key tag: 35273).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 39830 (rcode=SUCCESS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DS to validate transaction 39830 (makotom.net, DNSKEY with key tag: 35273).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for makotom.net IN DS
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 24204 for <makotom.net IN DS> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 24204.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.1.1.1 for transaction 24204.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 24204.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DS to validate transaction 39830 (makotom.net, DNSKEY with key tag: 2371).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 24204 (rcode=SUCCESS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DNSKEY to validate transaction 24204 (makotom.net, RRSIG with key tag: 7934).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for net IN DNSKEY
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 55699 for <net IN DNSKEY> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 55699.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.1.1.1 for transaction 55699.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 55699.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 55699 (rcode=SUCCESS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DS to validate transaction 55699 (net, DNSKEY with key tag: 7934).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for net IN DS
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 56559 for <net IN DS> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 56559.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.1.1.1 for transaction 56559.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 56559.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DS to validate transaction 55699 (net, DNSKEY with key tag: 35886).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 56559 (rcode=SUCCESS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DNSKEY to validate transaction 56559 (net, RRSIG with key tag: 41656).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for . IN DNSKEY
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 3268 for <. IN DNSKEY> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 3268.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.1.1.1 for transaction 3268.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 3268.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 3268 (rcode=SUCCESS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DS to validate transaction 3268 (., DNSKEY with key tag: 41656).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DS to validate transaction 3268 (., DNSKEY with key tag: 19036).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Requesting DS to validate transaction 3268 (., DNSKEY with key tag: 20326).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Validating response from transaction 3268 (. IN DNSKEY).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Looking at . IN DNSKEY 256 3 RSASHA256 AwEAAfaifSqh+9ItxYRCwuiY0FY2NkaEwd/zmyVvakixDgTOkgG
+Aug 10 16:22:28 archiso systemd-resolved[811]:                             /PUzlEauAiKzlxGwezjqbKFPSwrY3qHmbbsSTY6G8hZtna8k26e
+Aug 10 16:22:28 archiso systemd-resolved[811]:                             Cwy59Chh573cu8qtBkmUIXMYG3fSdlUReP+uhBWBfKI2aGwhRmQ
+Aug 10 16:22:28 archiso systemd-resolved[811]:                             YR0zSmg7PGOde34c/rOItK1ebJhjTAJ6TmnON7qMfk/lKvH4qOv
+Aug 10 16:22:28 archiso systemd-resolved[811]:                             YtzstLhr7Pn9ZOVLx/WUKQpU/nEyFyTduRbz1nZqkp6yMuHwWVs
+Aug 10 16:22:28 archiso systemd-resolved[811]:                             ABK8lUYXSaUrDAsuMSldhafmR/A15BxNhv9M7mzJj7UH2RVME9J
+Aug 10 16:22:28 archiso systemd-resolved[811]:                             bYinBEzWwW9GpnY+ZmBWgZiRVTaDuemCTJ5ZJWLRs=
+Aug 10 16:22:28 archiso systemd-resolved[811]:         -- Flags: ZONE_KEY
+Aug 10 16:22:28 archiso systemd-resolved[811]:         -- Key tag: 41656: validated
+Aug 10 16:22:28 archiso systemd-resolved[811]: Found verdict for lookup . IN DNSKEY: secure
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 3268 for <. IN DNSKEY> on scope dns on */* now complete with <success> from network (authenticated).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Validating response from transaction 56559 (net IN DS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Looking at net IN DS 35886 8 2 7862b27f5f516ebe19680444d4ce5e762981931842c465f00236401d8bd973ee: validated
+Aug 10 16:22:28 archiso systemd-resolved[811]: Found verdict for lookup net IN DS: secure
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 56559 for <net IN DS> on scope dns on */* now complete with <success> from network (authenticated).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Validating response from transaction 55699 (net IN DNSKEY).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Looking at net IN DNSKEY 256 3 RSASHA256 AQO6ELLy73I+l1XTVPuW3zfQkw5nublxoY4QgdTVOfUjdv6oo
+Aug 10 16:22:28 archiso systemd-resolved[811]:                               KTMRMgfKb+alpX58L5pfhndd+o7hisIwgiH2b6aqjdljzTfdV
+Aug 10 16:22:28 archiso systemd-resolved[811]:                               4XeZ/2CROv1ki/BRWwD61P/w688bpuBl/u3vsTjvjq6FdVZVf
+Aug 10 16:22:28 archiso systemd-resolved[811]:                               3/afMXtSO1RR7uaQ7qn8oupY/6w==
+Aug 10 16:22:28 archiso systemd-resolved[811]:         -- Flags: ZONE_KEY
+Aug 10 16:22:28 archiso systemd-resolved[811]:         -- Key tag: 7934: validated
+Aug 10 16:22:28 archiso systemd-resolved[811]: Found verdict for lookup net IN DNSKEY: secure
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 55699 for <net IN DNSKEY> on scope dns on */* now complete with <success> from network (authenticated).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Validating response from transaction 24204 (makotom.net IN DS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Looking at makotom.net IN DS 2371 13 2 51f313bfd9f3d65d1fd53d79e2e24f11860f83e982836474f0b03c9797ae96f6: validated
+Aug 10 16:22:28 archiso systemd-resolved[811]: Found verdict for lookup makotom.net IN DS: secure
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 24204 for <makotom.net IN DS> on scope dns on */* now complete with <success> from network (authenticated).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Validating response from transaction 39830 (makotom.net IN DNSKEY).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Looking at makotom.net IN DNSKEY 256 3 ECDSAP256SHA256 
+Aug 10 16:22:28 archiso systemd-resolved[811]:         koPbw9wmYZ7ggcjnQ6ayHyhHaDNMYELKTqT+qRGrZpWSccr/lBcrm10Z1PuQHB3Azhii+sb
+Aug 10 16:22:28 archiso systemd-resolved[811]:         0PYFkH1ruxLhe5g==
+Aug 10 16:22:28 archiso systemd-resolved[811]:         -- Flags: ZONE_KEY
+Aug 10 16:22:28 archiso systemd-resolved[811]:         -- Key tag: 35273: validated
+Aug 10 16:22:28 archiso systemd-resolved[811]: Found verdict for lookup makotom.net IN DNSKEY: secure
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 39830 for <makotom.net IN DNSKEY> on scope dns on */* now complete with <success> from network (authenticated).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Validating response from transaction 45542 (nosec.makotom.net IN DS).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Looking at nosec.makotom.net IN NSEC nosec\000.makotom.net ( NS RRSIG NSEC ): validated
+Aug 10 16:22:28 archiso systemd-resolved[811]: Found verdict for lookup nosec.makotom.net IN NSEC: secure
+Aug 10 16:22:28 archiso systemd-resolved[811]: Looking at makotom.net IN SOA ada.ns.cloudflare.com dns.cloudflare.com 2028557298 10000 2400 604800 3600: validated
+Aug 10 16:22:28 archiso systemd-resolved[811]: Found verdict for lookup makotom.net IN SOA: secure
+Aug 10 16:22:28 archiso systemd-resolved[811]: Proved NODATA via NSEC/NSEC3 for transaction 45542 (nosec.makotom.net IN DS)
+Aug 10 16:22:28 archiso systemd-resolved[811]: Found verdict for lookup nosec.makotom.net IN DS: secure
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 45542 for <nosec.makotom.net IN DS> on scope dns on */* now complete with <success> from network (authenticated).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Validating response from transaction 55772 (nosec.makotom.net IN SOA).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Looking at nosec.makotom.net IN SOA ns1.he.net hostmaster.he.net 2018081041 86400 7200 3600000 86400: no-signature
+Aug 10 16:22:28 archiso systemd-resolved[811]: Found verdict for lookup nosec.makotom.net IN SOA: insecure
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 55772 for <nosec.makotom.net IN SOA> on scope dns on */* now complete with <success> from network (unsigned).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 48546 (rcode=SERVFAIL).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Server returned error SERVFAIL, retrying transaction with reduced feature level UDP+EDNS0+DO.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Retrying transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for master.www.nosec.makotom.net IN DS
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 48546 for <master.www.nosec.makotom.net IN DS> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO for transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 48546 (rcode=SERVFAIL).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Server returned error SERVFAIL, retrying transaction with reduced feature level UDP+EDNS0.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Retrying transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for master.www.nosec.makotom.net IN DS
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 48546 for <master.www.nosec.makotom.net IN DS> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0 for transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 48546 (rcode=SERVFAIL).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Server returned error SERVFAIL, retrying transaction with reduced feature level UDP.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Retrying transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for master.www.nosec.makotom.net IN DS
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 48546 for <master.www.nosec.makotom.net IN DS> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP for transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Processing incoming packet on transaction 48546 (rcode=SERVFAIL).
+Aug 10 16:22:28 archiso systemd-resolved[811]: Retrying transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Switching to system DNS server 1.0.0.1.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Cache miss for master.www.nosec.makotom.net IN DS
+Aug 10 16:22:28 archiso systemd-resolved[811]: Transaction 48546 for <master.www.nosec.makotom.net IN DS> scope dns on */*.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO+LARGE for transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Using DNS server 1.0.0.1 for transaction 48546.
+Aug 10 16:22:28 archiso systemd-resolved[811]: Sending query packet with id 48546.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Processing incoming packet on transaction 48546 (rcode=SERVFAIL).
+Aug 10 16:22:29 archiso systemd-resolved[811]: Server returned error SERVFAIL, retrying transaction with reduced feature level UDP+EDNS0+DO.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Retrying transaction 48546.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Cache miss for master.www.nosec.makotom.net IN DS
+Aug 10 16:22:29 archiso systemd-resolved[811]: Transaction 48546 for <master.www.nosec.makotom.net IN DS> scope dns on */*.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Using feature level UDP+EDNS0+DO for transaction 48546.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Sending query packet with id 48546.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Processing incoming packet on transaction 48546 (rcode=SERVFAIL).
+Aug 10 16:22:29 archiso systemd-resolved[811]: Server returned error SERVFAIL, retrying transaction with reduced feature level UDP+EDNS0.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Retrying transaction 48546.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Cache miss for master.www.nosec.makotom.net IN DS
+Aug 10 16:22:29 archiso systemd-resolved[811]: Transaction 48546 for <master.www.nosec.makotom.net IN DS> scope dns on */*.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Using feature level UDP+EDNS0 for transaction 48546.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Sending query packet with id 48546.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Processing incoming packet on transaction 48546 (rcode=SERVFAIL).
+Aug 10 16:22:29 archiso systemd-resolved[811]: Server returned error SERVFAIL, retrying transaction with reduced feature level UDP.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Retrying transaction 48546.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Cache miss for master.www.nosec.makotom.net IN DS
+Aug 10 16:22:29 archiso systemd-resolved[811]: Transaction 48546 for <master.www.nosec.makotom.net IN DS> scope dns on */*.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Using feature level UDP for transaction 48546.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Sending query packet with id 48546.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Processing incoming packet on transaction 48546 (rcode=SERVFAIL).
+Aug 10 16:22:29 archiso systemd-resolved[811]: Server returned error: SERVFAIL
+Aug 10 16:22:29 archiso systemd-resolved[811]: Verified we get a response at feature level UDP from DNS server 1.0.0.1.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Requesting parent SOA to validate transaction 48546 (master.www.nosec.makotom.net, unsigned empty DS response).
+Aug 10 16:22:29 archiso systemd-resolved[811]: Potential cyclic dependency, refusing to add transaction 31046 (master.www.nosec.makotom.net IN DS) as dependency for 48546 (www.nosec.makotom.net IN SOA).
+Aug 10 16:22:29 archiso systemd-resolved[811]: Validating response from transaction 48546 (master.www.nosec.makotom.net IN DS).
+Aug 10 16:22:29 archiso systemd-resolved[811]: Found verdict for lookup master.www.nosec.makotom.net IN DS: bogus
+Aug 10 16:22:29 archiso systemd-resolved[811]: DNSSEC validation failed for question master.www.nosec.makotom.net IN DS: no-signature
+Aug 10 16:22:29 archiso systemd-resolved[811]: Transaction 48546 for <master.www.nosec.makotom.net IN DS> on scope dns on */* now complete with <dnssec-failed> from network (unsigned).
+Aug 10 16:22:29 archiso systemd-resolved[811]: Auxiliary DNSSEC RR query failed validation: no-signature
+Aug 10 16:22:29 archiso systemd-resolved[811]: DNSSEC validation failed for question www.nosec.makotom.net IN SOA: no-signature
+Aug 10 16:22:29 archiso systemd-resolved[811]: Transaction 31046 for <www.nosec.makotom.net IN SOA> on scope dns on */* now complete with <dnssec-failed> from network (unsigned).
+Aug 10 16:22:29 archiso systemd-resolved[811]: Auxiliary DNSSEC RR query failed validation: no-signature
+Aug 10 16:22:29 archiso systemd-resolved[811]: DNSSEC validation failed for question slave.www.nosec.makotom.net IN A: no-signature
+Aug 10 16:22:29 archiso systemd-resolved[811]: Transaction 35587 for <slave.www.nosec.makotom.net IN A> on scope dns on */* now complete with <dnssec-failed> from network (unsigned).
+Aug 10 16:22:29 archiso systemd-resolved[811]: Sending response packet with id 16859 on interface 1/AF_INET.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Freeing transaction 35587.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Freeing transaction 31046.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Freeing transaction 55772.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Freeing transaction 45542.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Freeing transaction 39830.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Freeing transaction 24204.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Freeing transaction 55699.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Freeing transaction 56559.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Freeing transaction 3268.
+Aug 10 16:22:29 archiso systemd-resolved[811]: Freeing transaction 48546.
